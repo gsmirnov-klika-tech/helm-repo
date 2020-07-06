@@ -3,7 +3,7 @@ entries:
   my-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-04T15:48:43.248722161+03:00"
+    created: "2020-07-04T16:52:47.275392371+03:00"
     description: A Helm chart for Kubernetes
     digest: 2b2790e42e7d03fc8eff288a8548929949ce45489bb15b9938092d4bf8be8131
     name: my-app
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/gsmirnov-klika-tech/helm-repo/gh-pages/my-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-04T15:48:43.248112417+03:00"
+generated: "2020-07-04T16:52:47.273963129+03:00"
