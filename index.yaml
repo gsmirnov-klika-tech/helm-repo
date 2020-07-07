@@ -3,9 +3,9 @@ entries:
   quext-crd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-06T18:34:48.713827507+03:00"
+    created: "2020-07-07T10:21:36.550340483+03:00"
     description: A Helm chart for Kubernetes
-    digest: 3e179061e5a4fffa12dcc599bfc846ff7020c61d3e3642f20e5079a43a6d9fa3
+    digest: 79ffc6d72c84f0dcaca02a877d9bec6a33d82d53d9dbfe65cf16cc1b47e5979c
     name: quext-crd
     type: application
     urls:
@@ -14,12 +14,12 @@ entries:
   quext-resources:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-06T18:34:48.715107303+03:00"
+    created: "2020-07-07T10:21:36.551705004+03:00"
     description: A Helm chart for Kubernetes
-    digest: ba0b6734fac518ad05e45d62142067c5e1bb211d7d82af3669934e2198a114d6
+    digest: 85bf01575a0ca78216e62259392fdbd280acbbcf23f57f92174c6ed37658be51
     name: quext-resources
     type: application
     urls:
     - https://raw.githubusercontent.com/gsmirnov-klika-tech/helm-repo/quext/quext-resources-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-06T18:34:48.712618157+03:00"
+generated: "2020-07-07T10:21:36.549396673+03:00"
