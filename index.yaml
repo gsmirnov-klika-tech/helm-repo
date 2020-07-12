@@ -1,25 +1,47 @@
 apiVersion: v1
 entries:
+  quext-base:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-07-12T11:00:44.898653206+03:00"
+    description: A Helm chart for Kubernetes
+    digest: acce7e283ba3e325512beb01a7470c298fa82646cedecef0d9ae75036dc0708b
+    name: quext-base
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/gsmirnov-klika-tech/helm-repo/quext/quext-base-0.1.0.tgz
+    version: 0.1.0
   quext-crd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-07T10:21:36.550340483+03:00"
+    created: "2020-07-12T11:00:44.90084079+03:00"
     description: A Helm chart for Kubernetes
-    digest: 79ffc6d72c84f0dcaca02a877d9bec6a33d82d53d9dbfe65cf16cc1b47e5979c
+    digest: bdbb370ff709d1da88260b2242895563606d1ebe767ed613230916725cb2811c
     name: quext-crd
     type: application
     urls:
     - https://raw.githubusercontent.com/gsmirnov-klika-tech/helm-repo/quext/quext-crd-0.1.0.tgz
     version: 0.1.0
-  quext-resources:
+  quext-ingress:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-07T10:21:36.551705004+03:00"
+    created: "2020-07-12T11:00:44.901135673+03:00"
     description: A Helm chart for Kubernetes
-    digest: 85bf01575a0ca78216e62259392fdbd280acbbcf23f57f92174c6ed37658be51
-    name: quext-resources
+    digest: f8f35be75032d54be49478b9970562c2f7886fbe343251e5a4c8667f174b6bdd
+    name: quext-ingress
     type: application
     urls:
-    - https://raw.githubusercontent.com/gsmirnov-klika-tech/helm-repo/quext/quext-resources-0.1.0.tgz
+    - https://raw.githubusercontent.com/gsmirnov-klika-tech/helm-repo/quext/quext-ingress-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-07T10:21:36.549396673+03:00"
+  quext-kiali:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-07-12T11:00:44.901416819+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 04b28e7ece82d6b857e5841b62c392a58191fe834fa690f53a0b805f88493f71
+    name: quext-kiali
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/gsmirnov-klika-tech/helm-repo/quext/quext-kiali-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-07-12T11:00:44.895896385+03:00"
