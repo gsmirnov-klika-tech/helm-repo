@@ -1,11 +1,11 @@
 apiVersion: v1
 entries:
   quext-base:
-  - apiVersion: v2
+  - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-07-12T11:00:44.898653206+03:00"
+    created: "2020-07-14T13:55:23.016484622+03:00"
     description: A Helm chart for Kubernetes
-    digest: acce7e283ba3e325512beb01a7470c298fa82646cedecef0d9ae75036dc0708b
+    digest: 66504da79c1f4763d24845a89b112cd5e00c4bc814c5ce5b6bd132df87f0e2ad
     name: quext-base
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   quext-crd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-12T11:00:44.90084079+03:00"
+    created: "2020-07-14T13:55:23.01795655+03:00"
     description: A Helm chart for Kubernetes
-    digest: bdbb370ff709d1da88260b2242895563606d1ebe767ed613230916725cb2811c
+    digest: 80221c8f77a0679c661f9ce205345f5a93a08188c4ff63e3430fe4c22e341e87
     name: quext-crd
     type: application
     urls:
@@ -25,9 +25,9 @@ entries:
   quext-ingress:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-12T11:00:44.901135673+03:00"
+    created: "2020-07-14T13:55:23.018233252+03:00"
     description: A Helm chart for Kubernetes
-    digest: f8f35be75032d54be49478b9970562c2f7886fbe343251e5a4c8667f174b6bdd
+    digest: a06f790db1055c3407abce253688ba9ba546be3c11308ec1aa1f302dd9abee80
     name: quext-ingress
     type: application
     urls:
@@ -36,7 +36,7 @@ entries:
   quext-kiali:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-12T11:00:44.901416819+03:00"
+    created: "2020-07-14T13:55:23.026378254+03:00"
     description: A Helm chart for Kubernetes
     digest: 04b28e7ece82d6b857e5841b62c392a58191fe834fa690f53a0b805f88493f71
     name: quext-kiali
@@ -44,4 +44,15 @@ entries:
     urls:
     - https://raw.githubusercontent.com/gsmirnov-klika-tech/helm-repo/quext/quext-kiali-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-12T11:00:44.895896385+03:00"
+  quext-prometheus:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-07-14T13:55:23.027486059+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 516a4d48e54f0b2433190a38a6e64cfffec31fa8fafe2d874e7573dd7f7c1ff6
+    name: quext-prometheus
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/gsmirnov-klika-tech/helm-repo/quext/quext-prometheus-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-07-14T13:55:23.014037869+03:00"
