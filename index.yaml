@@ -3,7 +3,7 @@ entries:
   my-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-14T00:15:16.826710441+03:00"
+    created: "2020-08-15T10:17:36.201028247+03:00"
     description: A Helm chart for Kubernetes
     digest: 2b2790e42e7d03fc8eff288a8548929949ce45489bb15b9938092d4bf8be8131
     name: my-app
@@ -14,12 +14,12 @@ entries:
   quext-spa:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-14T00:15:16.826933199+03:00"
+    created: "2020-08-15T10:17:36.201370544+03:00"
     description: A Helm chart for Kubernetes
-    digest: 877786d6bd26f95265fefa4ecf1ea97d97188aa96dc7b25b6f413e7c884c122c
+    digest: 9d8e35c64d806356812223fa738c2a9934f0cbf4e50abce27644a6ff235edb99
     name: quext-spa
     type: application
     urls:
     - https://raw.githubusercontent.com/gsmirnov-klika-tech/helm-repo/gh-pages/quext-spa-0.1.0.tgz
     version: 0.1.0
-generated: "2020-08-14T00:15:16.826150166+03:00"
+generated: "2020-08-15T10:17:36.200298313+03:00"
